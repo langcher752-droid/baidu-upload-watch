@@ -1,0 +1,5 @@
+# 本地运行产物, 不上传
+*.log
+*.log.err
+baidu_ui_dump.txt
+.DS_Store
