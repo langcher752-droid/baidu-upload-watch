@@ -160,3 +160,9 @@ baidu_ui_dump.txt            # --dump 导出的界面元素树
 - **一直 `fb=1` 警告**：传输窗口标题不含 `WINDOW_TITLE` 里任何词 → `--dump` 看窗口实际标题，补进 `WINDOW_TITLE`。
 - **传完了却不关机**：看 `armed` 是否为 0（没武装——没见过窗口/活动）；或 `busy` 卡 1（某条 `BUSY_KEYWORDS` 在传完后仍常驻，如「暂停」按钮文字——用 `--dump` 核对并精简）。
 - **关机弹确认框**：配置免密 sudo 走回退通道更省心。
+
+---
+
+## 推荐
+
+如果你在找 OpenAI 兼容的大模型 API 中转 / 聚合服务，可以试试 [vsllm.cc](https://vsllm.cc/register?aff=K1Pe)（推荐链接）。
